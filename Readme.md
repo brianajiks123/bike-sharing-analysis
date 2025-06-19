@@ -1,43 +1,34 @@
-# Bike Sharing Dashboard ✨
+# Bike Sharing Dashboard 🚴✨
 
-## Setup Environment - Anaconda
-```
+## Setup Environment - Anaconda 🐍
+``` conda
 conda create --name main-ds python=3.12.9
+```
+``` conda
 conda activate main-ds
+```
+``` python
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
-```
+## Setup Environment - Shell/Terminal 💻
+``` bash
 mkdir bike_sharing_analysis
+```
+``` bash
 cd bike_sharing_analysis
+```
+``` python
 pipenv install
+```
+``` python
 pipenv shell
+```
+``` python
 pip install -r requirements.txt
 ```
 
-## Run steamlit app
-```
-streamlit run dashboard.py
-```# Bike Sharing Dashboard ✨
-
-## Setup Environment - Anaconda
-```
-conda create --name main-ds python=3.12.9
-conda activate main-ds
-pip install -r requirements.txt
-```
-
-## Setup Environment - Shell/Terminal
-```
-mkdir bike_sharing_analysis
-cd bike_sharing_analysis
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
-
-## Run steamlit app
-```
+## Run Streamlit App ▶️
+``` python
 streamlit run dashboard.py
 ```
